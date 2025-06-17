@@ -1,0 +1,1 @@
+Modelo de site que está sendo montado, este exemplo foi baseado um portal com varias páginas para testar principalmente o tamanho da página e tambem sobre a capacidade de inserir arquivos de fotos, todos com exemplos ficticios apenas como base.
