@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Notícias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #e1ff1e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #1e90ff;
+            padding-bottom: 5px;
+        }
+
+        article {
+            background-color: white;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        article a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .image-container {
+            text-align: center;
+            /* Centraliza a imagem horizontalmente */
+            padding: 20px;
+            /* Espaço ao redor, opcional */
+        }
+
+        .responsive-img {
+            max-width: 100%;
+            width: 300px;
+            /* Tamanho máximo fixo */
+            height: auto;
+            margin: 0 auto;
+            display: block;
+            border-radius: 8px;
+            /* Estilo opcional: bordas arredondadas */
+        }
+
+        @media (max-width: 300px) {
+            .responsive-img {
+                width: 100%;
+                /* No celular, ocupa toda a largura disponível */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Portal de Notícias</h1>
+        <nav>
+            <ul>
+                <li><a href="#A">A</a></li>
+                <li><a href="#B">B</a></li>
+                <li><a href="#C">C</a></li>
+                <li><a href="#D">D</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="A">
+            <h2>Teste de interface</h2>
+            <article>
+                <p>Para deixar o mesmo mais responsivo, mesmo conteúdo da página B</p>
+                <style>
+
+                </style>
+
+                <div class="image-container">
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="imagem-mobile.jpg">
+                        <img src="1184_Original.jpg" alt="Imagem online" class="responsive-img">
+                    </picture>
+                </div>
+
+            </article>
+            <section></section>
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Portal de Notícias. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
